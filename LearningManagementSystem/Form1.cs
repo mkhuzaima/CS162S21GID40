@@ -17,10 +17,6 @@ namespace LearningManagementSystem
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -63,6 +59,23 @@ namespace LearningManagementSystem
         }
 
         private void studentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StudentDashboard form = new StudentDashboard();
+            form.Show();
+            this.Dispose();
+        }
+
+        private void administratorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tacherToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void managerToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
