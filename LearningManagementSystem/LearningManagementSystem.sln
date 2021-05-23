@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem", "LearningManagementSystem\LearningManagementSystem.csproj", "{36069FE6-A6C5-43AE-A8CE-70AFA3E8A997}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem", "LearningManagementSystem.csproj", "{F415006C-23D4-4537-9290-8B834C597921}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36069FE6-A6C5-43AE-A8CE-70AFA3E8A997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36069FE6-A6C5-43AE-A8CE-70AFA3E8A997}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36069FE6-A6C5-43AE-A8CE-70AFA3E8A997}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36069FE6-A6C5-43AE-A8CE-70AFA3E8A997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F415006C-23D4-4537-9290-8B834C597921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F415006C-23D4-4537-9290-8B834C597921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F415006C-23D4-4537-9290-8B834C597921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F415006C-23D4-4537-9290-8B834C597921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B6C8883B-9601-468F-A9C6-EC5FAA7A665F}
+		SolutionGuid = {0722ECC4-54E5-47E3-BE69-58AE759E5614}
 	EndGlobalSection
 EndGlobal

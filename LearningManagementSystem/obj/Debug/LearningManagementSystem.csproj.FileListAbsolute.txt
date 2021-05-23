@@ -1,0 +1,10 @@
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe.config
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.pdb
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.Form1.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.Properties.Resources.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.GenerateResource.cache
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.CoreCompileInputs.cache
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
