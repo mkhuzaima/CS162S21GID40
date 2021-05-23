@@ -59,8 +59,12 @@ namespace LearningManagementSystem
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Khuziama");
             Application.Exit();
+        }
+
+        private void studentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
