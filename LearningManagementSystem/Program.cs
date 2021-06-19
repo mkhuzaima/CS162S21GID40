@@ -16,8 +16,9 @@ namespace LearningManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-          //  this.hide();
+            Application.Run(new LoginForm());
+            //Application.Run(new Form1());
+            //this.hide();
 
         }
     }
