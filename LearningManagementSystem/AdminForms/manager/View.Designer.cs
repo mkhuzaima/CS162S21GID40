@@ -1,7 +1,7 @@
 ﻿
 namespace LearningManagementSystem.AdminForms.manager
 {
-    partial class add
+    partial class View
     {
         /// <summary>
         /// Required designer variable.
@@ -29,17 +29,10 @@ namespace LearningManagementSystem.AdminForms.manager
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // add
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "add";
-            this.Text = "add";
-            this.ResumeLayout(false);
-
+            this.Text = "View";
         }
 
         #endregion

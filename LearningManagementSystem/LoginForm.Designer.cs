@@ -36,7 +36,7 @@ namespace LearningManagementSystem
             this.loginbtn = new System.Windows.Forms.Button();
             this.exitbtn = new System.Windows.Forms.Button();
             this.usernameField = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.showpwd = new System.Windows.Forms.CheckBox();
             this.passwordField = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -82,12 +82,12 @@ namespace LearningManagementSystem
             this.usernameField.Name = "usernameField";
             this.usernameField.TextChanged += new System.EventHandler(this.usernameField_TextChanged);
             // 
-            // checkBox1
+            // showpwd
             // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            resources.ApplyResources(this.showpwd, "showpwd");
+            this.showpwd.Name = "showpwd";
+            this.showpwd.UseVisualStyleBackColor = true;
+            this.showpwd.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // passwordField
             // 
@@ -102,7 +102,7 @@ namespace LearningManagementSystem
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.Controls.Add(this.passwordField);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.showpwd);
             this.Controls.Add(this.usernameField);
             this.Controls.Add(this.exitbtn);
             this.Controls.Add(this.loginbtn);
@@ -127,7 +127,7 @@ namespace LearningManagementSystem
         private System.Windows.Forms.Button loginbtn;
         private System.Windows.Forms.Button exitbtn;
         private System.Windows.Forms.TextBox usernameField;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox showpwd;
         private System.Windows.Forms.TextBox passwordField;
     }
 }

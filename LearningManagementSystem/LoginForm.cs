@@ -73,7 +73,14 @@ namespace LearningManagementSystem
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            
+            if(showpwd.Checked)
+            {
+                passwordField.PasswordChar = '\0';
+            }
+            else
+            {
+                passwordField.PasswordChar = '•';
+            }
         }
 
         private void loginbtn_Click(object sender, EventArgs e)

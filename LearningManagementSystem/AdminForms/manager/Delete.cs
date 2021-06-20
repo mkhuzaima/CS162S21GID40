@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LearningManagementSystem.AdminForms.manager
 {
-    public partial class add : Form
+    public partial class Delete : Form
     {
-        public add()
+        public Delete()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
