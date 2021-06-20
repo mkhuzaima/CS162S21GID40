@@ -25,3 +25,4 @@ E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminDashboardForm.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\aa\LearningManagementSystem.resources.dll
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.add.resources
