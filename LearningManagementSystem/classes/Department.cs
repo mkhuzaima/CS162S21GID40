@@ -20,6 +20,8 @@ namespace LearningManagementSystem.classes
         {
             Name = name;
             HeadOfDepartment = headOfDepartment;
+            ProgramsOffered = new List<string>();
+            
         }
     }
 }

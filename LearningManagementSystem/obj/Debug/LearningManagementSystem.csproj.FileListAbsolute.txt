@@ -26,6 +26,22 @@ E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.addEdit.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
-E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
-E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
-E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe.config
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\bin\Debug\LearningManagementSystem.pdb
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\bin\Debug\aa\LearningManagementSystem.resources.dll
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.addEdit.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.Form1.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminDashboardForm.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.StudentDashboard.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.Properties.Resources.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.GenerateResource.cache
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\aa\LearningManagementSystem.resources.dll
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
+C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.View.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.Delete.resources

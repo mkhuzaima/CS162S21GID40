@@ -13,7 +13,21 @@ namespace LearningManagementSystem.classes
         
         public List<Department> departments;
 
-        public University()
+        static private University _instance;
+        public static University instance
+        {
+            get
+            {
+                if (_instance == null)
+                    _instance = new University();
+                return _instance;
+            }
+            private set
+            {
+                _instance = value;
+            }
+        }
+        private University()
         {
             departments = new List<Department>();
 

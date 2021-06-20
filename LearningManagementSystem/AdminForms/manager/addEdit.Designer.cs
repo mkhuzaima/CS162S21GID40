@@ -33,22 +33,22 @@ namespace LearningManagementSystem.AdminForms.manager
             this.nametxtbox = new System.Windows.Forms.TextBox();
             this.cnictxtbox = new System.Windows.Forms.TextBox();
             this.cniclbl = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.emailtxtbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.contactNumbertxtbox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.usernametxtbox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.joiningDate = new System.Windows.Forms.DateTimePicker();
+            this.birthDate = new System.Windows.Forms.DateTimePicker();
+            this.passwordtxtbox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.qualificationtxtbox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.addressbox = new System.Windows.Forms.RichTextBox();
             this.actionbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -90,14 +90,14 @@ namespace LearningManagementSystem.AdminForms.manager
             this.cniclbl.TabIndex = 2;
             this.cniclbl.Text = "CNIC";
             // 
-            // textBox1
+            // emailtxtbox
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(449, 125);
-            this.textBox1.MaxLength = 50;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 20);
-            this.textBox1.TabIndex = 7;
+            this.emailtxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.emailtxtbox.Location = new System.Drawing.Point(449, 125);
+            this.emailtxtbox.MaxLength = 50;
+            this.emailtxtbox.Name = "emailtxtbox";
+            this.emailtxtbox.Size = new System.Drawing.Size(192, 20);
+            this.emailtxtbox.TabIndex = 7;
             // 
             // label1
             // 
@@ -121,14 +121,14 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label2.TabIndex = 4;
             this.label2.Text = "Date of joining";
             // 
-            // textBox3
+            // contactNumbertxtbox
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(449, 185);
-            this.textBox3.MaxLength = 50;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 20);
-            this.textBox3.TabIndex = 11;
+            this.contactNumbertxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.contactNumbertxtbox.Location = new System.Drawing.Point(449, 185);
+            this.contactNumbertxtbox.MaxLength = 50;
+            this.contactNumbertxtbox.Name = "contactNumbertxtbox";
+            this.contactNumbertxtbox.Size = new System.Drawing.Size(192, 20);
+            this.contactNumbertxtbox.TabIndex = 11;
             // 
             // label3
             // 
@@ -151,13 +151,13 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label4.TabIndex = 8;
             this.label4.Text = "Date of Birth";
             // 
-            // textBox6
+            // usernametxtbox
             // 
-            this.textBox6.Location = new System.Drawing.Point(136, 245);
-            this.textBox6.MaxLength = 50;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(192, 20);
-            this.textBox6.TabIndex = 13;
+            this.usernametxtbox.Location = new System.Drawing.Point(136, 245);
+            this.usernametxtbox.MaxLength = 50;
+            this.usernametxtbox.Name = "usernametxtbox";
+            this.usernametxtbox.Size = new System.Drawing.Size(192, 20);
+            this.usernametxtbox.TabIndex = 13;
             // 
             // label6
             // 
@@ -180,27 +180,27 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label7.TabIndex = 18;
             this.label7.Text = "Address";
             // 
-            // dateTimePicker1
+            // joiningDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(139, 125);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(189, 20);
-            this.dateTimePicker1.TabIndex = 20;
+            this.joiningDate.Location = new System.Drawing.Point(139, 125);
+            this.joiningDate.Name = "joiningDate";
+            this.joiningDate.Size = new System.Drawing.Size(189, 20);
+            this.joiningDate.TabIndex = 20;
             // 
-            // dateTimePicker2
+            // birthDate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(137, 185);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(191, 20);
-            this.dateTimePicker2.TabIndex = 21;
+            this.birthDate.Location = new System.Drawing.Point(137, 185);
+            this.birthDate.Name = "birthDate";
+            this.birthDate.Size = new System.Drawing.Size(191, 20);
+            this.birthDate.TabIndex = 21;
             // 
-            // textBox5
+            // passwordtxtbox
             // 
-            this.textBox5.Location = new System.Drawing.Point(137, 305);
-            this.textBox5.MaxLength = 50;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(191, 20);
-            this.textBox5.TabIndex = 23;
+            this.passwordtxtbox.Location = new System.Drawing.Point(137, 305);
+            this.passwordtxtbox.MaxLength = 50;
+            this.passwordtxtbox.Name = "passwordtxtbox";
+            this.passwordtxtbox.Size = new System.Drawing.Size(191, 20);
+            this.passwordtxtbox.TabIndex = 23;
             // 
             // label5
             // 
@@ -212,14 +212,14 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label5.TabIndex = 22;
             this.label5.Text = "Password";
             // 
-            // textBox8
+            // qualificationtxtbox
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(449, 245);
-            this.textBox8.MaxLength = 50;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(192, 20);
-            this.textBox8.TabIndex = 25;
+            this.qualificationtxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.qualificationtxtbox.Location = new System.Drawing.Point(449, 245);
+            this.qualificationtxtbox.MaxLength = 50;
+            this.qualificationtxtbox.Name = "qualificationtxtbox";
+            this.qualificationtxtbox.Size = new System.Drawing.Size(192, 20);
+            this.qualificationtxtbox.TabIndex = 25;
             // 
             // label8
             // 
@@ -232,25 +232,27 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label8.TabIndex = 24;
             this.label8.Text = "Qualification";
             // 
-            // richTextBox1
+            // addressbox
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(449, 304);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(192, 96);
-            this.richTextBox1.TabIndex = 26;
-            this.richTextBox1.Text = "";
+            this.addressbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.addressbox.Location = new System.Drawing.Point(449, 304);
+            this.addressbox.Name = "addressbox";
+            this.addressbox.Size = new System.Drawing.Size(192, 96);
+            this.addressbox.TabIndex = 26;
+            this.addressbox.Text = "";
             // 
             // actionbtn
             // 
             this.actionbtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.actionbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.actionbtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold);
-            this.actionbtn.Location = new System.Drawing.Point(309, 399);
+            this.actionbtn.Location = new System.Drawing.Point(297, 389);
             this.actionbtn.Name = "actionbtn";
-            this.actionbtn.Size = new System.Drawing.Size(100, 30);
+            this.actionbtn.Size = new System.Drawing.Size(112, 40);
             this.actionbtn.TabIndex = 27;
             this.actionbtn.Text = "Add Manager";
             this.actionbtn.UseVisualStyleBackColor = true;
+            this.actionbtn.Click += new System.EventHandler(this.actionbtn_Click);
             // 
             // addEdit
             // 
@@ -259,20 +261,20 @@ namespace LearningManagementSystem.AdminForms.manager
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(713, 452);
             this.Controls.Add(this.actionbtn);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.addressbox);
+            this.Controls.Add(this.qualificationtxtbox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.passwordtxtbox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.birthDate);
+            this.Controls.Add(this.joiningDate);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.usernametxtbox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.contactNumbertxtbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.emailtxtbox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cnictxtbox);
@@ -293,22 +295,22 @@ namespace LearningManagementSystem.AdminForms.manager
         private System.Windows.Forms.TextBox nametxtbox;
         private System.Windows.Forms.TextBox cnictxtbox;
         private System.Windows.Forms.Label cniclbl;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox emailtxtbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox contactNumbertxtbox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox usernametxtbox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DateTimePicker joiningDate;
+        private System.Windows.Forms.DateTimePicker birthDate;
+        private System.Windows.Forms.TextBox passwordtxtbox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox qualificationtxtbox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox addressbox;
         private System.Windows.Forms.Button actionbtn;
     }
 }

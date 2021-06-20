@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearningManagementSystem.classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,6 +38,8 @@ namespace LearningManagementSystem
             teacherpnl.Hide();
             studentpnl.Hide();
 
+            /*panelBar.BringToFront();*/
+
             //ManagerBtn_Click(ManagerBtn, EventArgs.Empty);
             //btnCloseChildForm_Click(btnCloseChildForm, EventArgs.Empty);
             Reset();
@@ -74,16 +77,16 @@ namespace LearningManagementSystem
                 panelLogo.BackColor = ThemeColor.SecondaryColor;
                 btnCloseChildForm.Visible = true;
 
-                panelBar.Show();
+                /*panelBar.Show();
                 panelBar.BackColor = ThemeColor.SecondaryColor;
                 panelBar.Top = currentButton.Top;
-                panelBar.Height = currentButton.Height;
+                panelBar.Height = currentButton.Height;*/
             }
         }
 
         private void DisableButton()
         {
-            panelBar.Hide();
+            /*panelBar.Hide();*/
             if (currentButton == null) return;
             currentButton.BackColor = Color.FromArgb(51, 51, 76);
             currentButton.ForeColor = Color.Gainsboro;
@@ -281,10 +284,6 @@ namespace LearningManagementSystem
 
         }
 
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             
@@ -319,6 +318,15 @@ namespace LearningManagementSystem
 
         private void button6_Click(object sender, EventArgs e)
         {
+            Manager manager = new Manager()
+            {
+                Name = "khuzaima",
+                Email = "mkhuzaimaumair@gmail.com",
+                Password = "khuzaima123",
+                Cnic = "3510296024967",
+            };
+            University.instance.Mngr = manager;
+
             OpenChildForm(new AdminForms.manager.View(), sender);
         }
 
@@ -409,6 +417,11 @@ namespace LearningManagementSystem
         private void deleteStdent_Click(object sender, EventArgs e)
         {
             OpenChildForm(null, sender);
+
+        }
+
+        private void panelBar_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

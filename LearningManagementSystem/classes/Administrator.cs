@@ -18,17 +18,17 @@ namespace LearningManagementSystem.classes
         public string Password { get; set; }
         public string Username { get; set; }
 
-        public Administrator instance
+        public static Administrator instance
         { 
             get
             {
-                if (this.instance == null)
-                    this.instance = new Administrator();
-                return this.instance;
+                if (Administrator.instance == null)
+                    Administrator.instance = new Administrator();
+                return Administrator.instance;
             }
             private set
             {
-                this.instance = value;
+                Administrator.instance = value;
             }
         }
         
