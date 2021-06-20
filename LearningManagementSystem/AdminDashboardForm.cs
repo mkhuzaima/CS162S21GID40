@@ -38,7 +38,8 @@ namespace LearningManagementSystem
             studentpnl.Hide();
 
             //ManagerBtn_Click(ManagerBtn, EventArgs.Empty);
-            btnCloseChildForm_Click(btnCloseChildForm, EventArgs.Empty);
+            //btnCloseChildForm_Click(btnCloseChildForm, EventArgs.Empty);
+            Reset();
             //To avoid hiding of taskbar on maximizing screen 
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
@@ -287,6 +288,7 @@ namespace LearningManagementSystem
 
         private void ManagerBtn_Click(object sender, EventArgs e)
         {
+            ActivateButton(sender);
             //OpenChildForm(null, sender);
             ShowPanel(managerpnl);
         }
@@ -352,6 +354,7 @@ namespace LearningManagementSystem
 
         private void studentbtn_Click_1(object sender, EventArgs e)
         {
+            ActivateButton(sender);
             ShowPanel(studentpnl);
 
         }
