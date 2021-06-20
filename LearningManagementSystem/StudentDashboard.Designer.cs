@@ -91,7 +91,6 @@ namespace LearningManagementSystem
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "StudentDashboard";
             this.Text = "Student Dashboard";
-            this.Load += new System.EventHandler(this.StudentDashboard_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

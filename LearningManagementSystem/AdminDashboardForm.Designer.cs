@@ -35,24 +35,13 @@ namespace LearningManagementSystem
             this.managerpnl = new System.Windows.Forms.Panel();
             this.panelBar = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
-            this.logoutBtn = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.homeBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.settingbtn = new System.Windows.Forms.Button();
-=======
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.deleteStdent = new System.Windows.Forms.Button();
             this.updateStudent = new System.Windows.Forms.Button();
             this.viewStudent = new System.Windows.Forms.Button();
@@ -69,13 +58,15 @@ namespace LearningManagementSystem
             this.addManager = new System.Windows.Forms.Button();
             this.ManagerBtn = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
-            this.settingbtn = new System.Windows.Forms.Button();
+            this.title = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.studentpnl.SuspendLayout();
             this.teacherpnl.SuspendLayout();
             this.managerpnl.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
+            this.panelDesktopPane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -95,7 +86,7 @@ namespace LearningManagementSystem
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(214, 581);
+            this.panelMenu.Size = new System.Drawing.Size(214, 571);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -149,33 +140,8 @@ namespace LearningManagementSystem
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-<<<<<<< HEAD
-            this.panelLogo.Controls.Add(this.pictureBox1);
-            this.panelLogo.Controls.Add(this.label1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(220, 80);
-            this.panelLogo.TabIndex = 0;
-            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(71, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ULMS";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
-            // 
             this.panelLogo.Controls.Add(this.title);
             this.panelLogo.Controls.Add(this.pictureBox1);
-=======
-            this.panelLogo.Controls.Add(this.label1);
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -183,30 +149,15 @@ namespace LearningManagementSystem
             this.panelLogo.TabIndex = 0;
             this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(51, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ULMS";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
-            // 
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
             this.panelTitleBar.Controls.Add(this.lblTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(220, 0);
-            this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(693, 80);
             this.panelTitleBar.Location = new System.Drawing.Point(214, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(699, 80);
+            this.panelTitleBar.Size = new System.Drawing.Size(729, 80);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
@@ -231,15 +182,7 @@ namespace LearningManagementSystem
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
-
-            this.lblTitle.Location = new System.Drawing.Point(349, 27);
-
             this.lblTitle.Location = new System.Drawing.Point(344, 27);
-
-=======
-            this.lblTitle.Location = new System.Drawing.Point(352, 27);
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(75, 25);
             this.lblTitle.TabIndex = 0;
@@ -248,24 +191,55 @@ namespace LearningManagementSystem
             // 
             // panelDesktopPane
             // 
-<<<<<<< HEAD
-
-            this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktopPane.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelDesktopPane.Location = new System.Drawing.Point(220, 80);
-            this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(693, 407);
-            this.panelDesktopPane.TabIndex = 9;
-
             this.panelDesktopPane.Controls.Add(this.label2);
-=======
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPane.Location = new System.Drawing.Point(214, 80);
             this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(699, 501);
+            this.panelDesktopPane.Size = new System.Drawing.Size(729, 491);
             this.panelDesktopPane.TabIndex = 9;
             this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(152, 201);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(442, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "University Learning Management System";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::LearningManagementSystem.Properties.Resources.uetlogo;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(62, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // settingbtn
+            // 
+            this.settingbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.settingbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.settingbtn.FlatAppearance.BorderSize = 0;
+            this.settingbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.settingbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.settingbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.settingbtn.Image = global::LearningManagementSystem.Properties.Resources.settings;
+            this.settingbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settingbtn.Location = new System.Drawing.Point(0, 1144);
+            this.settingbtn.Name = "settingbtn";
+            this.settingbtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.settingbtn.Size = new System.Drawing.Size(197, 60);
+            this.settingbtn.TabIndex = 16;
+            this.settingbtn.Text = "   Setting";
+            this.settingbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settingbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.settingbtn.UseVisualStyleBackColor = true;
+            this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
             // 
             // deleteStdent
             // 
@@ -566,7 +540,6 @@ namespace LearningManagementSystem
             this.ManagerBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.ManagerBtn.UseVisualStyleBackColor = true;
             this.ManagerBtn.Click += new System.EventHandler(this.ManagerBtn_Click);
-
             // 
             // logoutBtn
             // 
@@ -578,17 +551,10 @@ namespace LearningManagementSystem
             this.logoutBtn.ForeColor = System.Drawing.Color.Gainsboro;
             this.logoutBtn.Image = global::LearningManagementSystem.Properties.Resources.home;
             this.logoutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-
-            this.logoutBtn.Location = new System.Drawing.Point(0, 427);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.logoutBtn.Size = new System.Drawing.Size(220, 60);
-
             this.logoutBtn.Location = new System.Drawing.Point(0, 1204);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.logoutBtn.Size = new System.Drawing.Size(197, 60);
-
             this.logoutBtn.TabIndex = 7;
             this.logoutBtn.Text = "   Logout";
             this.logoutBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -596,122 +562,6 @@ namespace LearningManagementSystem
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
-<<<<<<< HEAD
-
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Image = global::LearningManagementSystem.Properties.Resources.home;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 320);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(220, 60);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "   Home";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Image = global::LearningManagementSystem.Properties.Resources.home;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 260);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(220, 60);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "   Home";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Image = global::LearningManagementSystem.Properties.Resources.home;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 200);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(220, 60);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "   Home";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Image = global::LearningManagementSystem.Properties.Resources.home;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 140);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(220, 60);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "   Home";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // homeBtn
-            // 
-            this.homeBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.homeBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.homeBtn.FlatAppearance.BorderSize = 0;
-            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.homeBtn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.homeBtn.Image = global::LearningManagementSystem.Properties.Resources.home;
-            this.homeBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.homeBtn.Location = new System.Drawing.Point(0, 80);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.homeBtn.Size = new System.Drawing.Size(220, 60);
-            this.homeBtn.TabIndex = 1;
-            this.homeBtn.Text = "   Home";
-            this.homeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.homeBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.homeBtn.UseVisualStyleBackColor = true;
-            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::LearningManagementSystem.Properties.Resources._1200px_University_of_Engineering_and_Technology_Lahore_logo_svg;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-
             // title
             // 
             this.title.AutoSize = true;
@@ -722,38 +572,16 @@ namespace LearningManagementSystem
             this.title.Size = new System.Drawing.Size(71, 25);
             this.title.TabIndex = 2;
             this.title.Text = "ULMS";
-
-=======
-            // settingbtn
-            // 
-            this.settingbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.settingbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.settingbtn.FlatAppearance.BorderSize = 0;
-            this.settingbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.settingbtn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.settingbtn.Image = global::LearningManagementSystem.Properties.Resources.settings;
-            this.settingbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingbtn.Location = new System.Drawing.Point(0, 1144);
-            this.settingbtn.Name = "settingbtn";
-            this.settingbtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.settingbtn.Size = new System.Drawing.Size(197, 60);
-            this.settingbtn.TabIndex = 16;
-            this.settingbtn.Text = "   Setting";
-            this.settingbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.settingbtn.UseVisualStyleBackColor = true;
-            this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             // 
             // AdminDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 581);
+            this.ClientSize = new System.Drawing.Size(943, 571);
             this.Controls.Add(this.panelDesktopPane);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
+            this.MinimumSize = new System.Drawing.Size(959, 596);
             this.Name = "AdminDashboardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin\'s Dashboard";
@@ -766,15 +594,9 @@ namespace LearningManagementSystem
             this.panelLogo.PerformLayout();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
-<<<<<<< HEAD
-
-
             this.panelDesktopPane.ResumeLayout(false);
             this.panelDesktopPane.PerformLayout();
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-=======
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.ResumeLayout(false);
 
         }
@@ -786,12 +608,8 @@ namespace LearningManagementSystem
         private System.Windows.Forms.Panel panelBar;
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label lblTitle;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCloseChildForm;
         private System.Windows.Forms.Panel panelDesktopPane;
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-
         private System.Windows.Forms.Button teacherbtn;
         private System.Windows.Forms.Panel managerpnl;
         private System.Windows.Forms.Button updateManager;
@@ -812,12 +630,8 @@ namespace LearningManagementSystem
         private System.Windows.Forms.Button addTeacher;
         private System.Windows.Forms.Button settingbtn;
         private System.Windows.Forms.Button logoutBtn;
-<<<<<<< HEAD
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label title;
-
-=======
->>>>>>> parent of 515d8e1 (added the uet logo on the gui)
     }
 }

@@ -112,8 +112,8 @@ namespace LearningManagementSystem
             ///////////////////////////////////////////
             
             childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
+            //childForm.FormBorderStyle = FormBorderStyle.None;
+            //childForm.Dock = DockStyle.Fill;
             this.panelDesktopPane.Controls.Add(childForm);
             this.panelDesktopPane.Tag = childForm;
             childForm.BringToFront();
@@ -281,10 +281,6 @@ namespace LearningManagementSystem
 
         }
 
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             
@@ -314,22 +310,22 @@ namespace LearningManagementSystem
 
         private void button7_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.addEdit("Add"), sender);
+            OpenChildForm(null, sender);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.View(), sender);
+            OpenChildForm(null, sender);
         }
 
         private void button5_Click_2(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.addEdit("Edit"), sender);
+            OpenChildForm(null, sender);
         }
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.Delete(), sender);
+            OpenChildForm(null, sender);
         }
 
         private void managerpnl_Paint(object sender, PaintEventArgs e)

@@ -63,16 +63,6 @@ namespace LearningManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1200px_University_of_Engineering_and_Technology_Lahore_logo_svg {
-            get {
-                object obj = ResourceManager.GetObject("1200px-University_of_Engineering_and_Technology_Lahore_logo.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap home {
             get {
                 object obj = ResourceManager.GetObject("home", resourceCulture);
@@ -96,6 +86,16 @@ namespace LearningManagementSystem.Properties {
         internal static System.Drawing.Bitmap uet_lkaxclasxc_a {
             get {
                 object obj = ResourceManager.GetObject("uet-lkaxclasxc-a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uetlogo {
+            get {
+                object obj = ResourceManager.GetObject("uetlogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

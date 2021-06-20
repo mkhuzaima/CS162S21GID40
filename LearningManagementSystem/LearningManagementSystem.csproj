@@ -133,14 +133,11 @@
     <None Include="Resources\home.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1200px-University_of_Engineering_and_Technology_Lahore_logo.svg.png" />
-
     <None Include="Resources\settings.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AdminForms\student\" />
     <Folder Include="AdminForms\teacher\" />
-
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
