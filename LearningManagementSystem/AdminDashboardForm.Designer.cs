@@ -35,10 +35,12 @@ namespace LearningManagementSystem
             this.managerpnl = new System.Windows.Forms.Panel();
             this.panelBar = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.logoutBtn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,6 +51,8 @@ namespace LearningManagementSystem
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.settingbtn = new System.Windows.Forms.Button();
+=======
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.deleteStdent = new System.Windows.Forms.Button();
             this.updateStudent = new System.Windows.Forms.Button();
             this.viewStudent = new System.Windows.Forms.Button();
@@ -65,15 +69,13 @@ namespace LearningManagementSystem
             this.addManager = new System.Windows.Forms.Button();
             this.ManagerBtn = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
-            this.title = new System.Windows.Forms.Label();
+            this.settingbtn = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.studentpnl.SuspendLayout();
             this.teacherpnl.SuspendLayout();
             this.managerpnl.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
-            this.panelDesktopPane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -93,7 +95,7 @@ namespace LearningManagementSystem
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(214, 571);
+            this.panelMenu.Size = new System.Drawing.Size(214, 581);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -147,6 +149,7 @@ namespace LearningManagementSystem
             // panelLogo
             // 
             this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+<<<<<<< HEAD
             this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
@@ -170,12 +173,27 @@ namespace LearningManagementSystem
             // 
             this.panelLogo.Controls.Add(this.title);
             this.panelLogo.Controls.Add(this.pictureBox1);
+=======
+            this.panelLogo.Controls.Add(this.label1);
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(197, 80);
             this.panelLogo.TabIndex = 0;
             this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.Location = new System.Drawing.Point(51, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ULMS";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // panelTitleBar
             // 
@@ -188,7 +206,7 @@ namespace LearningManagementSystem
             this.panelTitleBar.Size = new System.Drawing.Size(693, 80);
             this.panelTitleBar.Location = new System.Drawing.Point(214, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(729, 80);
+            this.panelTitleBar.Size = new System.Drawing.Size(699, 80);
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
@@ -213,11 +231,15 @@ namespace LearningManagementSystem
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
 
             this.lblTitle.Location = new System.Drawing.Point(349, 27);
 
             this.lblTitle.Location = new System.Drawing.Point(344, 27);
 
+=======
+            this.lblTitle.Location = new System.Drawing.Point(352, 27);
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(75, 25);
             this.lblTitle.TabIndex = 0;
@@ -226,6 +248,7 @@ namespace LearningManagementSystem
             // 
             // panelDesktopPane
             // 
+<<<<<<< HEAD
 
             this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPane.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -235,54 +258,14 @@ namespace LearningManagementSystem
             this.panelDesktopPane.TabIndex = 9;
 
             this.panelDesktopPane.Controls.Add(this.label2);
+=======
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPane.Location = new System.Drawing.Point(214, 80);
             this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(729, 491);
+            this.panelDesktopPane.Size = new System.Drawing.Size(699, 501);
             this.panelDesktopPane.TabIndex = 9;
             this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(152, 201);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(442, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "University Learning Management System";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::LearningManagementSystem.Properties.Resources.uetlogo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(62, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // settingbtn
-            // 
-            this.settingbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.settingbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.settingbtn.FlatAppearance.BorderSize = 0;
-            this.settingbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.settingbtn.ForeColor = System.Drawing.Color.Gainsboro;
-            this.settingbtn.Image = global::LearningManagementSystem.Properties.Resources.settings;
-            this.settingbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingbtn.Location = new System.Drawing.Point(0, 1144);
-            this.settingbtn.Name = "settingbtn";
-            this.settingbtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.settingbtn.Size = new System.Drawing.Size(197, 60);
-            this.settingbtn.TabIndex = 16;
-            this.settingbtn.Text = "   Setting";
-            this.settingbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.settingbtn.UseVisualStyleBackColor = true;
-            this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
             // 
             // deleteStdent
             // 
@@ -613,6 +596,7 @@ namespace LearningManagementSystem
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
+<<<<<<< HEAD
 
             // button4
             // 
@@ -739,16 +723,37 @@ namespace LearningManagementSystem
             this.title.TabIndex = 2;
             this.title.Text = "ULMS";
 
+=======
+            // settingbtn
+            // 
+            this.settingbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.settingbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.settingbtn.FlatAppearance.BorderSize = 0;
+            this.settingbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.settingbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.settingbtn.ForeColor = System.Drawing.Color.Gainsboro;
+            this.settingbtn.Image = global::LearningManagementSystem.Properties.Resources.settings;
+            this.settingbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settingbtn.Location = new System.Drawing.Point(0, 1144);
+            this.settingbtn.Name = "settingbtn";
+            this.settingbtn.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.settingbtn.Size = new System.Drawing.Size(197, 60);
+            this.settingbtn.TabIndex = 16;
+            this.settingbtn.Text = "   Setting";
+            this.settingbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settingbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.settingbtn.UseVisualStyleBackColor = true;
+            this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             // 
             // AdminDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(943, 571);
+            this.ClientSize = new System.Drawing.Size(913, 581);
             this.Controls.Add(this.panelDesktopPane);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
-            this.MinimumSize = new System.Drawing.Size(959, 596);
             this.Name = "AdminDashboardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin\'s Dashboard";
@@ -761,12 +766,15 @@ namespace LearningManagementSystem
             this.panelLogo.PerformLayout();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
+<<<<<<< HEAD
 
 
             this.panelDesktopPane.ResumeLayout(false);
             this.panelDesktopPane.PerformLayout();
 
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+=======
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
             this.ResumeLayout(false);
 
         }
@@ -778,6 +786,7 @@ namespace LearningManagementSystem
         private System.Windows.Forms.Panel panelBar;
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCloseChildForm;
         private System.Windows.Forms.Panel panelDesktopPane;
 
@@ -803,9 +812,12 @@ namespace LearningManagementSystem
         private System.Windows.Forms.Button addTeacher;
         private System.Windows.Forms.Button settingbtn;
         private System.Windows.Forms.Button logoutBtn;
+<<<<<<< HEAD
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label title;
 
+=======
+>>>>>>> parent of 515d8e1 (added the uet logo on the gui)
     }
 }

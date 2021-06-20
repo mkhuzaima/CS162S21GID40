@@ -26,3 +26,6 @@ E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.addEdit.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
+E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csprojAssemblyReference.cache
+E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
+E:\mk\OOP\OOP_lab\temporaryRipo\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
