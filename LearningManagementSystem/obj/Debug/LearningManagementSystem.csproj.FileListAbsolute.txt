@@ -8,6 +8,7 @@ D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSy
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.CoreCompileInputs.cache
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
+
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe.config
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.pdb
@@ -30,3 +31,6 @@ d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsy
 d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.StudentDashboard.resources
 d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
 d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\aa\LearningManagementSystem.resources.dll
+
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.Form2.resources
+

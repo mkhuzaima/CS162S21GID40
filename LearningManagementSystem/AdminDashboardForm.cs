@@ -20,6 +20,8 @@ namespace LearningManagementSystem
         private Random random;
         private int tempIndex;
         private Form activeForm;
+        private Panel currentSubmenuPanel;
+        
 
         //constructor
         public AdminDashboardForm()
@@ -29,6 +31,15 @@ namespace LearningManagementSystem
             //          color = Color.FromArgb(30, 0, 150, 136);
             //OpenChildForm(null, homeBtn);
             btnCloseChildForm.Visible = false;
+
+           // homePanel.Hide();
+            managerpnl.Hide();
+            teacherpnl.Hide();
+            studentpnl.Hide();
+
+            //ManagerBtn_Click(ManagerBtn, EventArgs.Empty);
+            //btnCloseChildForm_Click(btnCloseChildForm, EventArgs.Empty);
+            Reset();
             //To avoid hiding of taskbar on maximizing screen 
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
 
@@ -47,7 +58,6 @@ namespace LearningManagementSystem
 
         private void ActivateButton(object btnSender)
         {
-        
             if ( (btnSender != null) &&
                  (btnSender.GetType() == typeof(Button) && 
                  (currentButton != (Button)btnSender)) )
@@ -73,16 +83,20 @@ namespace LearningManagementSystem
 
         private void DisableButton()
         {
-            foreach (Control previousBtn in panelMenu.Controls)
+            panelBar.Hide();
+            if (currentButton == null) return;
+            currentButton.BackColor = Color.FromArgb(51, 51, 76);
+            currentButton.ForeColor = Color.Gainsboro;
+            currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            /*foreach (Control previousBtn in panelMenu.Controls)
             {
                 if (previousBtn.GetType() == typeof(Button))
                 {
-                    panelBar.Hide();
                     previousBtn.BackColor = Color.FromArgb(51, 51, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
                     previousBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 }
-            }
+            }*/
         }
 
         private void OpenChildForm(Form childForm, object btnSender)
@@ -124,6 +138,7 @@ namespace LearningManagementSystem
         private void Reset()
         {
             DisableButton();
+            HidePanel();
             lblTitle.Text = "HOME";
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
             panelLogo.BackColor = Color.FromArgb(39, 39, 58);
@@ -185,12 +200,35 @@ namespace LearningManagementSystem
 
         }
 
-        private void homeBtn_Click(object sender, EventArgs e)
+        /*private void homeBtn_Click(object sender, EventArgs e)
         {
+            ShowPanel(homePanel);
             //OpenChildForm(new Forms.FormSetting(), sender);
 
             //panelLogo.BackColor = color;
             OpenChildForm(null, sender);
+        }*/
+
+        private void ShowPanel(Panel submenuPanel)
+        {
+            if (currentSubmenuPanel != submenuPanel)
+            {
+                if (currentSubmenuPanel != null)
+                    currentSubmenuPanel.Hide();
+                currentSubmenuPanel = submenuPanel;
+                currentSubmenuPanel.Show();
+            }
+            else
+            {
+                HidePanel();
+            }
+        }
+
+        private void HidePanel()
+        {
+            if (currentSubmenuPanel == null) return;
+            currentSubmenuPanel.Hide();
+            currentSubmenuPanel = null;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -243,8 +281,134 @@ namespace LearningManagementSystem
 
         }
 
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void ManagerBtn_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+            //OpenChildForm(null, sender);
+            ShowPanel(managerpnl);
+        }
+
+        private void teacherbtn_Click(object sender, EventArgs e)
+        {
+            //OpenChildForm(null, sender);
+            ActivateButton(sender);
+            ShowPanel(teacherpnl);
+        }
+
+
+        private void studentbtn_Click(object sender, EventArgs e)
+        {
+            //OpenChildForm(null, sender);
+            ActivateButton(sender);
+            ShowPanel(studentpnl);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void button5_Click_2(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void managerpnl_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+        private void setting_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void settingbtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+        }
+
+        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void studentbtn_Click_1(object sender, EventArgs e)
+        {
+            ActivateButton(sender);
+            ShowPanel(studentpnl);
+
+        }
+
+        private void addTeacher_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void viewTeacher_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void updateTeacher_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void deleteTeacher_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void addStudent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void viewStudent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+
+        private void updateStudent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
+
+        }
+
+        private void deleteStdent_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(null, sender);
 
         }
     }
