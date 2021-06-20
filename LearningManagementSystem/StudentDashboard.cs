@@ -32,5 +32,9 @@ namespace LearningManagementSystem
 
         }
 
+        private void StudentDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

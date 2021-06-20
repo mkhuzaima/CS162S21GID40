@@ -18,10 +18,15 @@ E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.CoreCompileInputs.cache
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
-D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.Form2.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.StudentDashboard.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\aa\LearningManagementSystem.resources.dll
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminDashboardForm.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\aa\LearningManagementSystem.resources.dll
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\bin\Debug\aa\LearningManagementSystem.resources.dll
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.LoginForm.resources
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.AdminDashboardForm.resources
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.StudentDashboard.resources
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
+d:\home task\2nd semester\final tearm project\cs162s21gid40\learningmanagementsystem\obj\Debug\aa\LearningManagementSystem.resources.dll

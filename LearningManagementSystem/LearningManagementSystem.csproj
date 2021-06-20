@@ -123,5 +123,8 @@
   <ItemGroup>
     <None Include="Resources\home.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-University_of_Engineering_and_Technology_Lahore_logo.svg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
