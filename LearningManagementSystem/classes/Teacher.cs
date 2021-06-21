@@ -11,7 +11,7 @@ namespace LearningManagementSystem.classes
     {
         public List<OfferedCourse> offeredCourses { get; set; }
 
-        Teacher()
+        public Teacher()
         {
             offeredCourses = new List<OfferedCourse>();
         }

@@ -23,7 +23,8 @@ namespace LearningManagementSystem.AdminForms.manager
 
         private void LoadData()
         {
-            Manager mn = University.instance.Mngr;
+            if (University.instance.managers.Count == 0) return;
+            Manager mn = University.instance.managers.ElementAt(0);
             if (mn == null) return;
             nametxtbox.Text = mn.Name;
             cnictxtbox.Text = mn.Cnic;
@@ -89,7 +90,7 @@ namespace LearningManagementSystem.AdminForms.manager
                 {
                     TextBox tb = (TextBox)ctrl;
                     tb.Text = null;
-                    University.instance.Mngr = null;
+                    University.instance.managers.RemoveAt(0);
                 }
             }
         }

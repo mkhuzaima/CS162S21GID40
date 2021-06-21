@@ -329,7 +329,7 @@ namespace LearningManagementSystem
                 Password = "khuzaima123",
                 Cnic = "3510296024967",
             };
-            University.instance.Mngr = manager;
+            University.instance.managers.Add(manager);
 
             OpenChildForm(new AdminForms.manager.View(), sender);
         }

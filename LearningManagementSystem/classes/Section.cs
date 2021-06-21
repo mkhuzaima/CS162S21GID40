@@ -11,12 +11,12 @@ namespace LearningManagementSystem.classes
         public char Name { get; set; }
         public List<Student> students { get; set; }
 
-        public List<OfferedCourses> offeredCourses { get; set; }
+        public List<OfferedCourse> offeredCourses { get; set; }
         
         Section()
         {
             students = new List<Student>();
-            offeredCourses = new List<OfferedCourses>();
+            offeredCourses = new List<OfferedCourse>();
         }
     }
 }
