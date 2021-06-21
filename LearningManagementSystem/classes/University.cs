@@ -9,9 +9,12 @@ namespace LearningManagementSystem.classes
     class University
     {
         public Administrator Admin { get; set; }
-        public Manager Mngr { get; set; }
+        public List<Manager> managers { get; set; }
         
-        public List<Department> departments;
+        public List<Department> departments { get; set; }
+
+        public List<OfferedCourse> offeredCourses { get; set; }
+        public List<RegisteredCourse> registeredCourses{ get; set; }
 
         static private University _instance;
         public static University instance
@@ -30,7 +33,9 @@ namespace LearningManagementSystem.classes
         private University()
         {
             departments = new List<Department>();
-
+            offeredCourses = new List<OfferedCourse>();
+            registeredCourses = new List<RegisteredCourse>();
+            managers = new List<Manager>();
         }
     }
 }

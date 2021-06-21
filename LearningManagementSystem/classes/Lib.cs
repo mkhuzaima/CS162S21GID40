@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.classes
 {
-    class Lib
+    internal class Lib
     {
         public static string GetAge(DateTime DateOfBirth)
         {
@@ -26,5 +26,28 @@ namespace LearningManagementSystem.classes
             return age;
 
         }
+        public static string GetGender(string cnic)
+        {
+            if (cnic.Length != 13)
+            {
+                return "unknown";
+            }
+
+            char ch = cnic[12];
+            if (ch < '0' || ch > '9')
+            {
+                return "unknown";
+            }
+
+            if ((int)ch % 2 != 0)
+            {
+                return "Male";
+            }
+            else
+            {
+                return "Female";
+            }
+        }
+
     }
 }

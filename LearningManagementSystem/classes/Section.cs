@@ -8,7 +8,15 @@ namespace LearningManagementSystem.classes
 {
     class Section
     {
-        List<Student> students;
+        public char Name { get; set; }
+        public List<Student> students { get; set; }
+
+        public List<OfferedCourses> offeredCourses { get; set; }
         
+        Section()
+        {
+            students = new List<Student>();
+            offeredCourses = new List<OfferedCourses>();
+        }
     }
 }
