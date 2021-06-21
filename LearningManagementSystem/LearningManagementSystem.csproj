@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminForms\manager\addEdit.cs">
+    <Compile Include="AdminForms\manager\AddEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForms\manager\addEdit.Designer.cs">
-      <DependentUpon>addEdit.cs</DependentUpon>
+    <Compile Include="AdminForms\manager\AddEdit.Designer.cs">
+      <DependentUpon>AddEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminForms\manager\Delete.cs">
       <SubType>Form</SubType>
@@ -62,6 +62,42 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminForms\manager\View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\student\AddEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\student\AddEdit.Designer.cs">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\student\Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\student\Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\student\View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\student\View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\teacher\addEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\teacher\addEdit.Designer.cs">
+      <DependentUpon>addEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\teacher\Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\teacher\Delete.Designer.cs">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\teacher\View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\teacher\View.Designer.cs">
       <DependentUpon>View.cs</DependentUpon>
     </Compile>
     <Compile Include="classes\Administrator.cs" />
@@ -107,13 +143,31 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdminForms\manager\addEdit.resx">
-      <DependentUpon>addEdit.cs</DependentUpon>
+    <EmbeddedResource Include="AdminForms\manager\AddEdit.resx">
+      <DependentUpon>AddEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\manager\Delete.resx">
       <DependentUpon>Delete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminForms\manager\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\student\AddEdit.resx">
+      <DependentUpon>AddEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\student\Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\student\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\teacher\addEdit.resx">
+      <DependentUpon>addEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\teacher\Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\teacher\View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
@@ -165,12 +219,12 @@
   <ItemGroup>
     <None Include="Resources\settings.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AdminForms\student\" />
-    <Folder Include="AdminForms\teacher\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\uetlogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

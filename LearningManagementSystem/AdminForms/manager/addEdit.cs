@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace LearningManagementSystem.AdminForms.manager
 {
-    public partial class addEdit : Form
+    public partial class AddEdit : Form
     {
-        public addEdit(string action)
+        public AddEdit(string action)
         {
             InitializeComponent();
             this.Text = action + " Manager";

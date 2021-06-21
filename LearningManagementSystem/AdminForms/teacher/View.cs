@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LearningManagementSystem.AdminForms.manager
+namespace LearningManagementSystem.AdminForms.teacher
 {
-    public partial class add : Form
+    public partial class View : Form
     {
-        public add()
+        public View()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

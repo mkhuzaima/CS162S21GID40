@@ -36,7 +36,6 @@ namespace LearningManagementSystem.AdminForms.manager
             this.contactNubmerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qualificatioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateOfBirthDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.passwordDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usernameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,14 +56,13 @@ namespace LearningManagementSystem.AdminForms.manager
             this.contactNubmerDataGridViewTextBoxColumn,
             this.addressDataGridViewTextBoxColumn,
             this.emailDataGridViewTextBoxColumn,
-            this.qualificatioDataGridViewTextBoxColumn,
             this.dateOfBirthDataGridViewTextBoxColumn,
             this.passwordDataGridViewTextBoxColumn,
             this.usernameDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.managerBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 108);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 223);
+            this.dataGridView1.Size = new System.Drawing.Size(689, 223);
             this.dataGridView1.TabIndex = 0;
             // 
             // nameDataGridViewTextBoxColumn
@@ -97,12 +95,6 @@ namespace LearningManagementSystem.AdminForms.manager
             this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
             this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
             // 
-            // qualificatioDataGridViewTextBoxColumn
-            // 
-            this.qualificatioDataGridViewTextBoxColumn.DataPropertyName = "Qualificatio";
-            this.qualificatioDataGridViewTextBoxColumn.HeaderText = "Qualificatio";
-            this.qualificatioDataGridViewTextBoxColumn.Name = "qualificatioDataGridViewTextBoxColumn";
-            // 
             // dateOfBirthDataGridViewTextBoxColumn
             // 
             this.dateOfBirthDataGridViewTextBoxColumn.DataPropertyName = "DateOfBirth";
@@ -129,10 +121,10 @@ namespace LearningManagementSystem.AdminForms.manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(713, 452);
             this.Controls.Add(this.dataGridView1);
             this.Name = "View";
-            this.Text = "View";
+            this.Text = "View Manager";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.managerBindingSource)).EndInit();
             this.ResumeLayout(false);

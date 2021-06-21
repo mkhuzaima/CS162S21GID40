@@ -66,15 +66,18 @@ namespace LearningManagementSystem
                  (currentButton != (Button)btnSender)) )
             {
                 DisableButton();
-                Color color = SelectThemeColor();
+                Color color = ThemeColor.PrimaryColor;
+                if (color == null) color = SelectThemeColor();
                 currentButton = (Button)btnSender;
                 currentButton.BackColor = color;
                 currentButton.ForeColor = Color.White;
                 currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 panelTitleBar.BackColor = color;
-                ThemeColor.PrimaryColor = color;
+                panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                
+                ThemeColor.PrimaryColor = SelectThemeColor();
                 ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
-                panelLogo.BackColor = ThemeColor.SecondaryColor;
+
                 btnCloseChildForm.Visible = true;
 
                 /*panelBar.Show();
@@ -91,6 +94,7 @@ namespace LearningManagementSystem
             currentButton.BackColor = Color.FromArgb(51, 51, 76);
             currentButton.ForeColor = Color.Gainsboro;
             currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            
             /*foreach (Control previousBtn in panelMenu.Controls)
             {
                 if (previousBtn.GetType() == typeof(Button))
@@ -313,7 +317,7 @@ namespace LearningManagementSystem
 
         private void button7_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.addEdit("Add"), sender);
+            OpenChildForm(new AdminForms.manager.AddEdit("Add"), sender);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -332,7 +336,7 @@ namespace LearningManagementSystem
 
         private void button5_Click_2(object sender, EventArgs e)
         {
-            OpenChildForm(new AdminForms.manager.addEdit("Edit"), sender);
+            OpenChildForm(new AdminForms.manager.AddEdit("Edit"), sender);
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -374,51 +378,50 @@ namespace LearningManagementSystem
 
         private void addTeacher_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.teacher.addEdit("Add"), sender);
 
         }
 
         private void viewTeacher_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.teacher.View(), sender);
 
         }
 
         private void updateTeacher_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.teacher.addEdit("Edit"), sender);
 
         }
 
         private void deleteTeacher_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.teacher.Delete(), sender);
 
         }
 
         private void addStudent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.student.AddEdit("Add"), sender);
 
         }
 
         private void viewStudent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.student.View(), sender);
 
         }
 
 
         private void updateStudent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
+            OpenChildForm(new AdminForms.student.AddEdit("Edit"), sender);
 
         }
 
         private void deleteStdent_Click(object sender, EventArgs e)
         {
-            OpenChildForm(null, sender);
-
+            OpenChildForm(new AdminForms.student.Delete(), sender);
         }
 
         private void panelBar_Paint(object sender, PaintEventArgs e)

@@ -45,3 +45,9 @@ C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e
 C:\Users\M_Khuzaima\Desktop\New folder (2)\CS162S21GID40-e5adfde0735249e0294873e143fdc40dd4d201cc\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.View.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.Delete.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.AddEdit.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.Delete.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.View.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.addEdit.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.Delete.resources
+E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.View.resources

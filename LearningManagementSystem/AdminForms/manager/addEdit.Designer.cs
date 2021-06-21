@@ -1,7 +1,7 @@
 ﻿
 namespace LearningManagementSystem.AdminForms.manager
 {
-    partial class addEdit
+    partial class AddEdit
     {
         /// <summary>
         /// Required designer variable.
