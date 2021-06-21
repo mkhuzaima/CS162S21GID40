@@ -30,42 +30,42 @@ namespace LearningManagementSystem
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.settingbtn = new System.Windows.Forms.Button();
             this.studentpnl = new System.Windows.Forms.Panel();
+            this.teacherpnl = new System.Windows.Forms.Panel();
+            this.managerpnl = new System.Windows.Forms.Panel();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.title = new System.Windows.Forms.Label();
+            this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.panelDesktopPane = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.settingbtn = new System.Windows.Forms.Button();
             this.deleteStdent = new System.Windows.Forms.Button();
             this.updateStudent = new System.Windows.Forms.Button();
             this.viewStudent = new System.Windows.Forms.Button();
             this.addStudent = new System.Windows.Forms.Button();
             this.studentbtn = new System.Windows.Forms.Button();
-            this.teacherpnl = new System.Windows.Forms.Panel();
             this.deleteTeacher = new System.Windows.Forms.Button();
             this.updateTeacher = new System.Windows.Forms.Button();
             this.viewTeacher = new System.Windows.Forms.Button();
             this.addTeacher = new System.Windows.Forms.Button();
             this.teacherbtn = new System.Windows.Forms.Button();
-            this.managerpnl = new System.Windows.Forms.Panel();
             this.deleteManger = new System.Windows.Forms.Button();
             this.updateManager = new System.Windows.Forms.Button();
             this.viewManager = new System.Windows.Forms.Button();
             this.addManager = new System.Windows.Forms.Button();
             this.ManagerBtn = new System.Windows.Forms.Button();
             this.logoutBtn = new System.Windows.Forms.Button();
-            this.panelLogo = new System.Windows.Forms.Panel();
-            this.title = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panelTitleBar = new System.Windows.Forms.Panel();
-            this.btnCloseChildForm = new System.Windows.Forms.Button();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.panelDesktopPane = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.studentpnl.SuspendLayout();
             this.teacherpnl.SuspendLayout();
             this.managerpnl.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTitleBar.SuspendLayout();
             this.panelDesktopPane.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -88,6 +88,127 @@ namespace LearningManagementSystem
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
+            // studentpnl
+            // 
+            this.studentpnl.Controls.Add(this.deleteStdent);
+            this.studentpnl.Controls.Add(this.updateStudent);
+            this.studentpnl.Controls.Add(this.viewStudent);
+            this.studentpnl.Controls.Add(this.addStudent);
+            this.studentpnl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.studentpnl.Location = new System.Drawing.Point(0, 666);
+            this.studentpnl.Name = "studentpnl";
+            this.studentpnl.Size = new System.Drawing.Size(197, 203);
+            this.studentpnl.TabIndex = 15;
+            // 
+            // teacherpnl
+            // 
+            this.teacherpnl.Controls.Add(this.deleteTeacher);
+            this.teacherpnl.Controls.Add(this.updateTeacher);
+            this.teacherpnl.Controls.Add(this.viewTeacher);
+            this.teacherpnl.Controls.Add(this.addTeacher);
+            this.teacherpnl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.teacherpnl.Location = new System.Drawing.Point(0, 403);
+            this.teacherpnl.Name = "teacherpnl";
+            this.teacherpnl.Size = new System.Drawing.Size(197, 203);
+            this.teacherpnl.TabIndex = 13;
+            // 
+            // managerpnl
+            // 
+            this.managerpnl.Controls.Add(this.deleteManger);
+            this.managerpnl.Controls.Add(this.updateManager);
+            this.managerpnl.Controls.Add(this.viewManager);
+            this.managerpnl.Controls.Add(this.addManager);
+            this.managerpnl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.managerpnl.Location = new System.Drawing.Point(0, 140);
+            this.managerpnl.Name = "managerpnl";
+            this.managerpnl.Size = new System.Drawing.Size(197, 203);
+            this.managerpnl.TabIndex = 11;
+            this.managerpnl.Paint += new System.Windows.Forms.PaintEventHandler(this.managerpnl_Paint);
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            this.panelLogo.Controls.Add(this.title);
+            this.panelLogo.Controls.Add(this.pictureBox1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(197, 80);
+            this.panelLogo.TabIndex = 0;
+            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
+            // 
+            // title
+            // 
+            this.title.AutoSize = true;
+            this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.ForeColor = System.Drawing.Color.White;
+            this.title.Location = new System.Drawing.Point(80, 27);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(71, 25);
+            this.title.TabIndex = 2;
+            this.title.Text = "ULMS";
+            // 
+            // panelTitleBar
+            // 
+            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
+            this.panelTitleBar.Controls.Add(this.lblTitle);
+            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitleBar.Location = new System.Drawing.Point(214, 0);
+            this.panelTitleBar.Name = "panelTitleBar";
+            this.panelTitleBar.Size = new System.Drawing.Size(729, 80);
+            this.panelTitleBar.TabIndex = 1;
+            this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
+            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseChildForm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCloseChildForm.ForeColor = System.Drawing.Color.White;
+            this.btnCloseChildForm.Location = new System.Drawing.Point(17, 27);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(37, 28);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.Text = "X";
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(344, 27);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(75, 25);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "HOME";
+            this.lblTitle.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panelDesktopPane
+            // 
+            this.panelDesktopPane.Controls.Add(this.label2);
+            this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktopPane.Location = new System.Drawing.Point(214, 80);
+            this.panelDesktopPane.Name = "panelDesktopPane";
+            this.panelDesktopPane.Size = new System.Drawing.Size(729, 491);
+            this.panelDesktopPane.TabIndex = 9;
+            this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(152, 201);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(442, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "University Learning Management System";
+            // 
             // settingbtn
             // 
             this.settingbtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -108,18 +229,6 @@ namespace LearningManagementSystem
             this.settingbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.settingbtn.UseVisualStyleBackColor = true;
             this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
-            // 
-            // studentpnl
-            // 
-            this.studentpnl.Controls.Add(this.deleteStdent);
-            this.studentpnl.Controls.Add(this.updateStudent);
-            this.studentpnl.Controls.Add(this.viewStudent);
-            this.studentpnl.Controls.Add(this.addStudent);
-            this.studentpnl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.studentpnl.Location = new System.Drawing.Point(0, 666);
-            this.studentpnl.Name = "studentpnl";
-            this.studentpnl.Size = new System.Drawing.Size(197, 203);
-            this.studentpnl.TabIndex = 15;
             // 
             // deleteStdent
             // 
@@ -221,18 +330,6 @@ namespace LearningManagementSystem
             this.studentbtn.UseVisualStyleBackColor = true;
             this.studentbtn.Click += new System.EventHandler(this.studentbtn_Click_1);
             // 
-            // teacherpnl
-            // 
-            this.teacherpnl.Controls.Add(this.deleteTeacher);
-            this.teacherpnl.Controls.Add(this.updateTeacher);
-            this.teacherpnl.Controls.Add(this.viewTeacher);
-            this.teacherpnl.Controls.Add(this.addTeacher);
-            this.teacherpnl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.teacherpnl.Location = new System.Drawing.Point(0, 403);
-            this.teacherpnl.Name = "teacherpnl";
-            this.teacherpnl.Size = new System.Drawing.Size(197, 203);
-            this.teacherpnl.TabIndex = 13;
-            // 
             // deleteTeacher
             // 
             this.deleteTeacher.Dock = System.Windows.Forms.DockStyle.Top;
@@ -332,19 +429,6 @@ namespace LearningManagementSystem
             this.teacherbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.teacherbtn.UseVisualStyleBackColor = true;
             this.teacherbtn.Click += new System.EventHandler(this.teacherbtn_Click);
-            // 
-            // managerpnl
-            // 
-            this.managerpnl.Controls.Add(this.deleteManger);
-            this.managerpnl.Controls.Add(this.updateManager);
-            this.managerpnl.Controls.Add(this.viewManager);
-            this.managerpnl.Controls.Add(this.addManager);
-            this.managerpnl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.managerpnl.Location = new System.Drawing.Point(0, 140);
-            this.managerpnl.Name = "managerpnl";
-            this.managerpnl.Size = new System.Drawing.Size(197, 203);
-            this.managerpnl.TabIndex = 11;
-            this.managerpnl.Paint += new System.Windows.Forms.PaintEventHandler(this.managerpnl_Paint);
             // 
             // deleteManger
             // 
@@ -467,29 +551,6 @@ namespace LearningManagementSystem
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
-            // panelLogo
-            // 
-            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            this.panelLogo.Controls.Add(this.title);
-            this.panelLogo.Controls.Add(this.pictureBox1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(197, 80);
-            this.panelLogo.TabIndex = 0;
-            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
-            // 
-            // title
-            // 
-            this.title.AutoSize = true;
-            this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.ForeColor = System.Drawing.Color.White;
-            this.title.Location = new System.Drawing.Point(80, 27);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(71, 25);
-            this.title.TabIndex = 2;
-            this.title.Text = "ULMS";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LearningManagementSystem.Properties.Resources.uetlogo;
@@ -499,67 +560,6 @@ namespace LearningManagementSystem
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // panelTitleBar
-            // 
-            this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
-            this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
-            this.panelTitleBar.Controls.Add(this.lblTitle);
-            this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(214, 0);
-            this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(729, 80);
-            this.panelTitleBar.TabIndex = 1;
-            this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
-            this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
-            // 
-            // btnCloseChildForm
-            // 
-            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
-            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseChildForm.Font = new System.Drawing.Font("Tw Cen MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCloseChildForm.ForeColor = System.Drawing.Color.White;
-            this.btnCloseChildForm.Location = new System.Drawing.Point(17, 27);
-            this.btnCloseChildForm.Name = "btnCloseChildForm";
-            this.btnCloseChildForm.Size = new System.Drawing.Size(37, 28);
-            this.btnCloseChildForm.TabIndex = 1;
-            this.btnCloseChildForm.Text = "X";
-            this.btnCloseChildForm.UseVisualStyleBackColor = true;
-            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(344, 27);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(75, 25);
-            this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "HOME";
-            this.lblTitle.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panelDesktopPane
-            // 
-            this.panelDesktopPane.Controls.Add(this.label2);
-            this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktopPane.Location = new System.Drawing.Point(214, 80);
-            this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(729, 491);
-            this.panelDesktopPane.TabIndex = 9;
-            this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(152, 201);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(442, 25);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "University Learning Management System";
             // 
             // AdminDashboardForm
             // 
@@ -580,11 +580,11 @@ namespace LearningManagementSystem
             this.managerpnl.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             this.panelDesktopPane.ResumeLayout(false);
             this.panelDesktopPane.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -8,7 +8,6 @@ D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSy
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.csproj.CoreCompileInputs.cache
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.exe
 D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.pdb
-D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.Form2.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe.config
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.exe
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\bin\Debug\LearningManagementSystem.pdb
@@ -51,3 +50,18 @@ E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.addEdit.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.Delete.resources
 E:\mk\OOP\OOP_lab\Final Term Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.View.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\bin\Debug\aa\LearningManagementSystem.resources.dll
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.AddEdit.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.Delete.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.manager.View.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.AddEdit.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.Delete.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.student.View.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.addEdit.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.Delete.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminForms.teacher.View.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.AdminDashboardForm.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.StudentDashboard.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\LearningManagementSystem.LoginForm.aa.resources
+D:\home task\2nd semester\Final Tearm Project\CS162S21GID40\LearningManagementSystem\obj\Debug\aa\LearningManagementSystem.resources.dll

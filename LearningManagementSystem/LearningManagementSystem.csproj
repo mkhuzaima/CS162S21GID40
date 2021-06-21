@@ -228,6 +228,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\download.png" />
+    <None Include="Resources\courses-icon-15359.png" />
+    <None Include="Resources\courses-icon-15340.png" />
     <Content Include="Resources\uetlogo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
