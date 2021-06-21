@@ -139,7 +139,7 @@ namespace LearningManagementSystem.AdminForms.manager
         private System.Windows.Forms.DataGridViewTextBoxColumn contactNubmerDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn qualificatioDataGridViewTextBoxColumn;
+        //private System.Windows.Forms.DataGridViewTextBoxColumn qualificatioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateOfBirthDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn passwordDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn usernameDataGridViewTextBoxColumn;

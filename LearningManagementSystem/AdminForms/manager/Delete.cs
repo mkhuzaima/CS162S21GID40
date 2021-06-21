@@ -90,7 +90,9 @@ namespace LearningManagementSystem.AdminForms.manager
                 {
                     TextBox tb = (TextBox)ctrl;
                     tb.Text = null;
-                    University.instance.managers.RemoveAt(0);
+                    if (University.instance.managers == null) return;
+                    if (University.instance.managers.Count > 0)
+                        University.instance.managers.RemoveAt(0);
                 }
             }
         }

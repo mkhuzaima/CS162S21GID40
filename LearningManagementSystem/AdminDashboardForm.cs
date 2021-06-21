@@ -29,7 +29,7 @@ namespace LearningManagementSystem
         {
             InitializeComponent();
             random = new Random();
-            //          color = Color.FromArgb(30, 0, 150, 136);
+            //color = Color.FromArgb(30, 0, 150, 136);
             //OpenChildForm(null, homeBtn);
             btnCloseChildForm.Visible = false;
 

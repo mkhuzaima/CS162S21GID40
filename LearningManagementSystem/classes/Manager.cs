@@ -8,5 +8,11 @@ namespace LearningManagementSystem.classes
 {
     class Manager : PersonAbstract
     {
+        public DateTime joinigDate { get; set; }
+        public Manager()
+        {
+            joinigDate = DateTime.Now;
+            DateOfBirth = DateTime.Now;
+        }
     }
 }

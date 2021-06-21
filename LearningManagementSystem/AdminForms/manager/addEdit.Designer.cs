@@ -31,12 +31,10 @@ namespace LearningManagementSystem.AdminForms.manager
         {
             this.namelbl = new System.Windows.Forms.Label();
             this.nametxtbox = new System.Windows.Forms.TextBox();
-            this.cnictxtbox = new System.Windows.Forms.TextBox();
             this.cniclbl = new System.Windows.Forms.Label();
             this.emailtxtbox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.contactNumbertxtbox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.usernametxtbox = new System.Windows.Forms.TextBox();
@@ -50,6 +48,8 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label8 = new System.Windows.Forms.Label();
             this.addressbox = new System.Windows.Forms.RichTextBox();
             this.actionbtn = new System.Windows.Forms.Button();
+            this.cnictxtbox = new System.Windows.Forms.MaskedTextBox();
+            this.contactNumbertxtbox = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // namelbl
@@ -69,15 +69,6 @@ namespace LearningManagementSystem.AdminForms.manager
             this.nametxtbox.Name = "nametxtbox";
             this.nametxtbox.Size = new System.Drawing.Size(192, 20);
             this.nametxtbox.TabIndex = 1;
-            // 
-            // cnictxtbox
-            // 
-            this.cnictxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cnictxtbox.Location = new System.Drawing.Point(449, 65);
-            this.cnictxtbox.MaxLength = 50;
-            this.cnictxtbox.Name = "cnictxtbox";
-            this.cnictxtbox.Size = new System.Drawing.Size(192, 20);
-            this.cnictxtbox.TabIndex = 3;
             // 
             // cniclbl
             // 
@@ -120,15 +111,6 @@ namespace LearningManagementSystem.AdminForms.manager
             this.label2.Size = new System.Drawing.Size(86, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Date of joining";
-            // 
-            // contactNumbertxtbox
-            // 
-            this.contactNumbertxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.contactNumbertxtbox.Location = new System.Drawing.Point(449, 185);
-            this.contactNumbertxtbox.MaxLength = 50;
-            this.contactNumbertxtbox.Name = "contactNumbertxtbox";
-            this.contactNumbertxtbox.Size = new System.Drawing.Size(192, 20);
-            this.contactNumbertxtbox.TabIndex = 11;
             // 
             // label3
             // 
@@ -254,12 +236,32 @@ namespace LearningManagementSystem.AdminForms.manager
             this.actionbtn.UseVisualStyleBackColor = true;
             this.actionbtn.Click += new System.EventHandler(this.actionbtn_Click);
             // 
-            // addEdit
+            // cnictxtbox
+            // 
+            this.cnictxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cnictxtbox.Location = new System.Drawing.Point(449, 65);
+            this.cnictxtbox.Mask = "00000-0000000-0";
+            this.cnictxtbox.Name = "cnictxtbox";
+            this.cnictxtbox.Size = new System.Drawing.Size(192, 20);
+            this.cnictxtbox.TabIndex = 28;
+            // 
+            // contactNumbertxtbox
+            // 
+            this.contactNumbertxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.contactNumbertxtbox.Location = new System.Drawing.Point(449, 185);
+            this.contactNumbertxtbox.Mask = "\\0300-0000000";
+            this.contactNumbertxtbox.Name = "contactNumbertxtbox";
+            this.contactNumbertxtbox.Size = new System.Drawing.Size(192, 20);
+            this.contactNumbertxtbox.TabIndex = 29;
+            // 
+            // AddEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(713, 452);
+            this.Controls.Add(this.contactNumbertxtbox);
+            this.Controls.Add(this.cnictxtbox);
             this.Controls.Add(this.actionbtn);
             this.Controls.Add(this.addressbox);
             this.Controls.Add(this.qualificationtxtbox);
@@ -271,17 +273,15 @@ namespace LearningManagementSystem.AdminForms.manager
             this.Controls.Add(this.label7);
             this.Controls.Add(this.usernametxtbox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.contactNumbertxtbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.emailtxtbox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cnictxtbox);
             this.Controls.Add(this.cniclbl);
             this.Controls.Add(this.nametxtbox);
             this.Controls.Add(this.namelbl);
-            this.Name = "addEdit";
+            this.Name = "AddEdit";
             this.Text = "Add Manager";
             this.Load += new System.EventHandler(this.addEdit_Load);
             this.ResumeLayout(false);
@@ -293,12 +293,10 @@ namespace LearningManagementSystem.AdminForms.manager
 
         private System.Windows.Forms.Label namelbl;
         private System.Windows.Forms.TextBox nametxtbox;
-        private System.Windows.Forms.TextBox cnictxtbox;
         private System.Windows.Forms.Label cniclbl;
         private System.Windows.Forms.TextBox emailtxtbox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox contactNumbertxtbox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox usernametxtbox;
@@ -312,5 +310,7 @@ namespace LearningManagementSystem.AdminForms.manager
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox addressbox;
         private System.Windows.Forms.Button actionbtn;
+        private System.Windows.Forms.MaskedTextBox cnictxtbox;
+        private System.Windows.Forms.MaskedTextBox contactNumbertxtbox;
     }
 }
